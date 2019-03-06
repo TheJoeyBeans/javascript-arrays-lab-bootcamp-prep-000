@@ -38,3 +38,9 @@ function removeLastKitten(name){
   newKittens.pop(name);
   return newKittens
 }
+
+function removeFirstKitten(name){
+  var newKittens = kittens.concat();
+  newKittens.shift(name);
+  return newKittens
+}
